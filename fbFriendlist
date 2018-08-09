@@ -1,1 +1,1 @@
-document.queryselectorAll();
+document.queryselectorAll(:not([class])");
