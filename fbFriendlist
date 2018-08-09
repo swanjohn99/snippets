@@ -1,1 +1,1 @@
-document.queryselectorAll(:not([class])");
+document.queryselectorAll("a:not([class])");
