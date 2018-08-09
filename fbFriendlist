@@ -1,1 +1,1 @@
-var allprofileLinks = document.queryselectorAll("a:not([class])");
+var allprofileLinks = document.querySelectorAll("a:not([class])");
