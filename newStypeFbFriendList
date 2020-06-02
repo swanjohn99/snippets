@@ -1,4 +1,4 @@
 var allprofileLinks = document.querySelectorAll("div>div>a>span");
 allprofileLinks.forEach(function(element) {
-  console.log(element.outerHTML);
+  console.log(element.__parent__.outerHTML);
 });
