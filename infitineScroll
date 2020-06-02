@@ -1,6 +1,6 @@
 for( i=0;i<50;i++){
   window.scrollTo(0,document.body.scrollHeight);
-  s
+  await sleep(2000)
 }
 
 function sleep(ms) {
