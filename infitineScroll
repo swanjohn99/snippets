@@ -1,12 +1,15 @@
-for( i=0;i<50;i++){
-  window.scrollTo(0,document.body.scrollHeight);
-  await sleep(2000);
-}
+
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
+async function demo() {
+for( i=0;i<50;i++){
+  window.scrollTo(0,document.body.scrollHeight);
+  await sleep(2000);
+}
+}
  
 
 
