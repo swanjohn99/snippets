@@ -1,4 +1,4 @@
-var allprofileLinks = document.querySelectorAll("div:not([class])");
+var allprofileLinks = document.querySelectorAll("div:not([class])>a");
 allprofileLinks.forEach(function(element) {
   console.log(element.outerHTML);
 });
