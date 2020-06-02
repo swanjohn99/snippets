@@ -1,5 +1,6 @@
-await new Promise(r => setTimeout(r, 2000));
+
 
  
 
-
+async function demo() {
+}
