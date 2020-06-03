@@ -2,4 +2,4 @@ var allprofileLinks = document.querySelectorAll("#mount_0_0 > div > div > div.rq
 allprofileLinks.forEach(function(element) {
 //  console.log(element.href);
 });
-console.log(allprofileLinks.);
+console.log(allprofileLinks.length);
