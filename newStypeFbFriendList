@@ -1,5 +1,5 @@
 var allprofileLinks = document.querySelectorAll("#mount_0_0 > div > div > div.rq0escxv.l9j0dhe7.du4w35lb > div > div > div.j83agx80.cbu4d94t.d6urw2fd.dp1hu0rb.l9j0dhe7.du4w35lb > div > div > div > div.d2edcug0.cbu4d94t.j83agx80.bp9cbjyn > div > div > div > div > div > div.i1fnvgqd.lhclo0ds.btwxx1t3.j83agx80 > div>div:nth-child(2)>div:nth-child(1)>a");
+console.log(Object.keys(allprofileLinks).length);
 allprofileLinks.forEach(function(element) {
 //  console.log(element.href);
 });
-console.log(Object.keys(allprofileLinks).length);
