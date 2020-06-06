@@ -1,1 +1,4 @@
-(Github Gists can't be empty so Snippets saved this content)
+var allprofileLinks = document.querySelectorAll("a:not([class])");
+allprofileLinks.forEach(function(element) {
+  console.log(element.outerHTML);
+});
