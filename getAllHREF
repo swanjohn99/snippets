@@ -1,4 +1,1 @@
-var allprofileLinks = document.querySelectorAll("a");
-allprofileLinks.forEach(function(element) {
-  console.log(element.href);
-});
+var allprofileLinks = document.querySelectorAll("a");allprofileLinks.forEach(function(element) {  console.log(element.href);});
