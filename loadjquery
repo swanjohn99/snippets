@@ -7,7 +7,9 @@ goodStuff = $('.cart-left').html()
 //$('body').html(goodStuff)
 $('.js-prod-image').hide()
 $('.form-group').hide()
-met-product-remove
+$('.met-product-remove').hide()
+$('.met-product-remove').hide()
+
 iwant = ""
 var node = document.createElement("div");    
 const fakeImages = document.querySelectorAll(".js-cart-item");
