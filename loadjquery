@@ -16,4 +16,5 @@ const fakeImages = document.querySelectorAll(".js-cart-item");
 	
 	  
  $('body').html("")
+  $('body').append(node)
  
