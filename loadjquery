@@ -11,7 +11,7 @@ iwant = ""
 var node = document.createElement("div");    
 const fakeImages = document.querySelectorAll(".js-cart-item");
 	for (const fakeImage of fakeImages) {
-	  console.log('fakeImage: ', fakeImage);
+	   node.appendChild()
 	}
 	
 	  
