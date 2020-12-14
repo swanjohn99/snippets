@@ -8,6 +8,7 @@ goodStuff = $('.cart-left').html()
 $('.js-prod-image').hide()
 $('.form-group').hide()
 $('.met-product-remove').hide()
+art-sc-unitPrice_9
 $('.save-for-later').hide()
 
 iwant = ""
