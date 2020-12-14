@@ -5,3 +5,4 @@ jQuery.noConflict();
 goodStuff = $('.cart-left').html()
 console.log(goodStuff)
 $('body').html(goodStuff)
+$('.js-prod-image')
