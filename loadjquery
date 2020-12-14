@@ -8,9 +8,11 @@ $('body').html(goodStuff)
 $('.js-prod-image').hide()
 $('.form-group').hide()
 iwant = ""
-var node = document.createElement("div");      
- $('body').html("")
+var node = document.createElement("div");    
 const fakeImages = document.querySelectorAll(".js-cart-item");
 	for (const fakeImage of fakeImages) {
 	  console.log('fakeImage: ', fakeImage);
 	}
+	
+	  
+ $('body').html("")
