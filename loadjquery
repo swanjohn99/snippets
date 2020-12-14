@@ -4,4 +4,4 @@ document.getElementsByTagName('head')[0].appendChild(jqry);
 jQuery.noConflict();
 goodStuff = $('.cart-left').html()
 console.log(goodStuff)
-$('body').html
+$('body').html()=goodStuff
