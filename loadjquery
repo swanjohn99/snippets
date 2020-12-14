@@ -7,3 +7,4 @@ console.log(goodStuff)
 $('body').html(goodStuff)
 $('.js-prod-image').hide()
 $('.form-group').hide()
+cart-item
