@@ -9,4 +9,7 @@ $('.js-prod-image').hide()
 $('.form-group').hide()
 iwant = ""
 var x = document.getElementsByClassName("example");
-for
+const fakeImages = document.querySelectorAll(".fake-image");
+	for (const fakeImage of fakeImages) {
+	  console.log('fakeImage: ', fakeImage);
+	}
