@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+//document.addEventListener('DOMContentLoaded', function() {
    // your code here
 
 if(location.hostname.match('internationalsexguide')){
@@ -6,4 +6,4 @@ if(location.hostname.match('internationalsexguide')){
   el.style.visibility = 'hidden';
 });
 } // will return null if no match is found
-}, false);
+//}, false);
