@@ -1,5 +1,5 @@
 if(location.hostname.match('mysite')){
-  [].forEach.call(document.querySelectorAll('.appBanner'), function (el) {
+  [].forEach.call(document.querySelectorAll('.quote_container'), function (el) {
   el.style.visibility = 'hidden';
 });
 } // will return null if no match is found
