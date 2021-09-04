@@ -5,5 +5,9 @@ if(location.hostname.match('internationalsexguide')){
   [].forEach.call(document.querySelectorAll('.bbcode_container'), function (el) {
   el.style.visibility = 'hidden';
 });
+   
+    [].forEach.call(document.querySelectorAll('.postdetails'), function (el) {
+  el.style.visibility = 'hidden';
+});
 } // will return null if no match is found
 //}, false);
