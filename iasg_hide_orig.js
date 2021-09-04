@@ -2,7 +2,7 @@
    // your code here
 
 if(location.hostname.match('internationalsexguide')){
-  [].forEach.call(document.querySelectorAll('.bbcode_container,.userinfo,.postfoot'), function (el) {
+  [].forEach.call(document.querySelectorAll('.bbcode_container,.userinfo,.postfoot,posthead'), function (el) {
   el.style.visibility = 'hidden';
 });
    
