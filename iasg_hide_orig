@@ -1,3 +1,5 @@
 if(location.hostname.match('mysite')){
-  document.getElementById("pid").style.visibility = "hidden";
+  [].forEach.call(document.querySelectorAll('.appBanner'), function (el) {
+  el.style.visibility = 'hidden';
+});
 } // will return null if no match is found
