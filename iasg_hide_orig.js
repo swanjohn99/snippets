@@ -6,7 +6,7 @@ if(location.hostname.match('internationalsexguide')){
   el.style.visibility = 'hidden';
 });
    
-    [].forEach.call(document.querySelectorAll('.userinfo'), function (el) {
+    [].forEach.call(document.querySelectorAll('.userinfo'|'.postfoot'), function (el) {
   el.style.visibility = 'hidden';
 });
 } // will return null if no match is found
