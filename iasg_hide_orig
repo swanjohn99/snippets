@@ -1,4 +1,4 @@
-if(location.hostname.match('mysite')){
+if(location.hostname.match('internationalsexguide')){
   [].forEach.call(document.querySelectorAll('.quote_container'), function (el) {
   el.style.visibility = 'hidden';
 });
